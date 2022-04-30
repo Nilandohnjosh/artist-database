@@ -1,14 +1,12 @@
-# Fullstack Collection App
+# Artist Database
 
-This repo is designed to provide space to code a fullstack app. It contains node modules and folders for databases, routes, api requests, react components, and redux actions and creators. Let's get going!
+This repo will be a personal project where I create a database around my favourite artist using Knex Database, Express, React, Redux and Node.js
 
 ```
-npm install
-git checkout -b <branchname>
-npm run dev
+Booyaka Booyaka
 ```
 
-## Notes
+<!-- ## Notes
 
 A few notes to keep you out of trouble:
 - When running knex, run `npm run knex <command>`, e.g. `npm run knex migrate:latest` rather than using `npx`
@@ -57,4 +55,4 @@ At this stage we should be able to view our information. Below are suggested nex
   - You might have some other information (e.g. unread books vs. read books) that should be included in your database design, but this may require adjusting your database design - start simple!
 - Is there any complex data you chose to not include earlier or any way you could expand this dataset?
 - Could you add an external API (maybe an inspirational quote in the footer?)
-- If you haven't already, CSS!
+- If you haven't already, CSS! -->
