@@ -7,6 +7,8 @@ exports.up = function (knex) {
     table.string('genre')
     table.integer('tracklist')
     table.integer('length')
+    table.string('cover_image')
+    table.timestamps(true, true)
   })
 }
 

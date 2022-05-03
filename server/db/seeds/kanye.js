@@ -12,6 +12,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 21,
           length: 76.13,
+          cover_image: '/images/TCD.jpeg',
         },
         {
           id: 2,
@@ -21,6 +22,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 21,
           length: 70.25,
+          cover_image: '/images/LR.jpeg',
         },
         {
           id: 3,
@@ -30,6 +32,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 13,
           length: 51.23,
+          cover_image: '/images/GR.jpeg',
         },
         {
           id: 4,
@@ -39,6 +42,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 12,
           length: 51.58,
+          cover_image: '/images/808s.jpeg',
         },
         {
           id: 5,
@@ -48,6 +52,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 13,
           length: 68.39,
+          cover_image: '/images/MBDTF.jpeg',
         },
         {
           id: 6,
@@ -57,6 +62,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 16,
           length: 46.12,
+          cover_image: 'WTT.jpeg',
         },
         {
           id: 7,
@@ -66,6 +72,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 12,
           length: '54.31',
+          cover_image: 'CS.jpeg',
         },
         {
           id: 8,
@@ -75,6 +82,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 10,
           length: 40.01,
+          cover_image: 'YEEZUS.jpeg',
         },
         {
           id: 9,
@@ -84,6 +92,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 20,
           length: 66.01,
+          cover_image: 'TLOP.jpeg',
         },
         {
           id: 10,
@@ -93,6 +102,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 7,
           length: 23.41,
+          cover_image: 'YE.jpeg',
         },
         {
           id: 11,
@@ -102,6 +112,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 7,
           length: 23.5,
+          cover_image: 'KSG.jpeg',
         },
         {
           id: 12,
@@ -111,6 +122,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 11,
           length: 27.04,
+          cover_image: 'JIK.jpg',
         },
         {
           id: 13,
@@ -120,6 +132,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 27,
           length: 108.48,
+          cover_image: 'DONDA.jpeg',
         },
         {
           id: 14,
@@ -129,6 +142,7 @@ exports.seed = function (knex) {
           genre: 'hip-hop',
           tracklist: 16,
           length: 47.22,
+          cover_image: 'DONDA.jpeg',
         },
       ])
     })
