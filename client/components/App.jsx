@@ -1,24 +1,26 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 
 import Kanye from './Kanye'
 import Home from './Home'
+import KanyeAlbums from './KanyeAlbums'
+import Nav from './Nav'
 
 function App () {
-  const kanye = useSelector(state => state.kanyeReducer)
-
   return (
     <>
       <header className="header">
-        <h1>The Artist Database</h1>
+        <Link to='/'>
+          <h1>The Artist Database</h1>
+        </Link>
+        <Nav />
       </header>
       <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/kanye/" element={<Kanye />} />
+          <Route path='/kanye/:id' element={<KanyeAlbums />} />
         </Routes>
-        {/* add your code here */}
       </div>
     </>
   )
